@@ -1,0 +1,32 @@
+{
+  "name": "aws-rekognition",
+  "version": "1.0.0",
+  "description": "utilizzo aws rekognition",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "aws",
+    "rekognition",
+    "amazon"
+  ],
+  "author": "Salvatore Sorrentino",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^0.24.0",
+    "aws-sdk": "^2.387.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "@types/request": "^2.48.1",
+    "@types/request-promise": "^4.1.42",
+    "@types/gapi.client.vision": "^1.0.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.2"
+  }
+}
